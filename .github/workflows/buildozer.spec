@@ -1,15 +1,15 @@
 [app]
-title = CalcApp
-package.name = calcapp
-package.domain = org.kivy
+title = MiApp
+package.name = miapp
+package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
-version = 1.0
+version = 0.1
 requirements = python3,kivy
 orientation = portrait
 osx.kivy_version = 2.1.0
-fullscreen = 1
+fullscreen = 0
 
 [buildozer]
 log_level = 2
-warn_on_root = 0
+warn_on_root = 1
